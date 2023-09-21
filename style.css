@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+  
+}
+.container{
+    height: 24rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.holder{
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    position: relative;
+    left: 30%;
+    top: 30%;
+}
+.holder input[type="text"]{
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 2px solid green;
+}
+.holder input[type="submit"]{
+    display: block;
+    height: 32px;
+    background: crimson;
+    border: 1px solid black;
+    outline: none;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.footer{
+    position: relative;
+    left: 550px;
+    top: 50PX;
+}
